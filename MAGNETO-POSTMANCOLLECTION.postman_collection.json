@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "0f7a561e-727e-4bfa-b28d-af179c3d70c9",
+		"name": "MAGNETO-POSTMANCOLLECTION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19668358"
+	},
+	"item": [
+		{
+			"name": "AWS",
+			"item": [
+				{
+					"name": "http://mutant.eba-suawgfd3.eu-west-1.elasticbeanstalk.com/mutant/",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"dna\" : [\"AAAA\",\"AAAA\",\"AAAA\",\"AAAA\"]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://mutant.eba-suawgfd3.eu-west-1.elasticbeanstalk.com/mutant",
+							"protocol": "http",
+							"host": [
+								"mutant",
+								"eba-suawgfd3",
+								"eu-west-1",
+								"elasticbeanstalk",
+								"com"
+							],
+							"path": [
+								"mutant"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://mutant.eba-suawgfd3.eu-west-1.elasticbeanstalk.com/stats/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://mutant.eba-suawgfd3.eu-west-1.elasticbeanstalk.com/stats",
+							"protocol": "http",
+							"host": [
+								"mutant",
+								"eba-suawgfd3",
+								"eu-west-1",
+								"elasticbeanstalk",
+								"com"
+							],
+							"path": [
+								"stats"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
